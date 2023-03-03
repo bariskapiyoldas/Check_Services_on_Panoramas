@@ -1,8 +1,8 @@
-#Python Script for Palo Alto Service Check
+**Python Script for Palo Alto Service Check**
 
 This script checks if a service exists in Palo Alto firewall, and if it doesn't exist, it creates it. The script requires SSH library paramiko and paramiko_expect.
 
-#Usage
+**Usage**
 
 The script requires input from the user as follows:
 
@@ -20,7 +20,7 @@ The output of the script is written to a file named "ServiceCheckResult.txt" in 
 The output contains information on whether the service already exists, whether it was successfully created, or if there was an error during the creation process.
 
 
-#Requirements
+**Requirements**
 
 *Python 3.x
 
